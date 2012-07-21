@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;	
+}
+body{
+
+}
+div.container{
+	background-image:url(Images/Bg.jpg);
+	background-repeat:no-repeat;
+	width:320px;
+	height:480px;
+	margin:0 auto;
+	padding-top:1px;
+}
+div.header{
+	background-image:url(Images/Head.jpg);
+	width:320px;
+	height:50px;
+	margin-top:20px;
+}
+div.article{
+	widows:320px;
+	height:410px;
+	position:relative;	
+}
+div.article div.first{
+	width:153px;
+	height:153px;
+	position:aabsolute;
+	background-image:url(Images/first.png);
+	background-repeat:;
+}
+div.article div.second{
+	width:;
+	height:;
+	position:aabsolute;
+	background-image:;
+	background-repeat:;	
+}
+div.article div.third{
+	width:;
+	height:;
+	position:aabsolute;
+	background-image:;
+	background-repeat:;	
+}
+div.article div.fourth{
+	width:;
+	height:;
+	position:aabsolute;
+	background-image:;
+	background-repeat:;	
+}
