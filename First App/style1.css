@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 @font-face{
-   font-family: 'article';
+   font-family:'article';
    src:url(En.TTF);	
 }
 *{
@@ -42,7 +42,7 @@ div.article div.first{
 	margin-top:0px;
 	margin-left:100px;
 	z-index:6;
-	-ms-transition:all 1s ease-in;
+	-moz-transition:all 1s ease-in;
 	-o-transition:all 1s ease-in;
 	-webkit-transition:all 1s ease-in;
 	-ms-transition:all 1s ease-in;
@@ -57,7 +57,7 @@ div.article div.second{
 	z-index:2;
 	margin-top:115px;
 	margin-left:200px;
-	-ms-transition:all 1s ease-in;
+	-moz-transition:all 1s ease-in;
 	-o-transition:all 1s ease-in;
 	-webkit-transition:all 1s ease-in;
 	-ms-transition:all 1s ease-in;
@@ -71,7 +71,7 @@ div.article div.second:hover{
 	z-index:2;
 	margin-top:115px;
 	margin-left:200px;
-	-ms-transition:all 1s ease-in;
+	-moz-transition:all 1s ease-in;
 	-o-transition:all 1s ease-in;
 	-webkit-transition:all 1s ease-in;
 	-ms-transition:all 1s ease-in;
@@ -85,7 +85,7 @@ div.article div.third{
 	z-index:3;
 	margin-top:147px;
 	margin-left:123px;
-	-ms-transition:all 1s ease-in;
+	-moz-transition:all 1s ease-in;
 	-o-transition:all 1s ease-in;
 	-webkit-transition:all 1s ease-in;
 	-ms-transition:all 1s ease-in;
@@ -100,7 +100,7 @@ div.article div.third:hover{
 	z-index:3;
 	margin-top:147px;
 	margin-left:123px;
-	-ms-transition:all 1s ease-in;
+	-moz-transition:all 1s ease-in;
 	-o-transition:all 1s ease-in;
 	-webkit-transition:all 1s ease-in;
 	-ms-transition:all 1s ease-in;
@@ -115,7 +115,7 @@ div.article div.fourth{
 	z-index:4;
 	margin-top:100px;
 	margin-left:20px;
-	-ms-transition:all 1s ease-in;
+	-moz-transition:all 1s ease-in;
 	-o-transition:all 1s ease-in;
 	-webkit-transition:all 1s ease-in;
 	-ms-transition:all 1s ease-in;
@@ -129,7 +129,7 @@ div.article div.fourth:hover{
 	z-index:4;
 	margin-top:100px;
 	margin-left:20px;
-	-ms-transition:all 1s ease-in;
+	-moz-transition:all 1s ease-in;
 	-o-transition:all 1s ease-in;
 	-webkit-transition:all 1s ease-in;
 	-ms-transition:all 1s ease-in;
@@ -148,7 +148,11 @@ div.content{
 	margin-top:-150px;	
 	margin-left:auto;
 	margin-right:auto;
+	box-shadow:5px 5px 13px #999;
 	-webkit-box-shadow:5px 5px 13px #999;
+	-moz-box-shadow:5px 5px 13px #999;
+	-o-box-shadow:5px 5px 13px #999;
+	-ms-box-shadow:5px 5px 13px #999;
 	padding-top:1px;
 }
 div.content p.firstway{
