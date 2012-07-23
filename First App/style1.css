@@ -1,8 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
 @font-face{
-   font-family:'article';
-   src:url(En.TTF);	
+	font-family :"farsi";
+	src:url('En.woff');
 }
 *{
 	margin:0;
@@ -77,12 +77,12 @@ div.article div.second:hover{
 	-ms-transition:all 1s ease-in;
 }
 div.article div.third{
-	width:90px;
-	height:90px;
+	width:120px;
+	height:120px;
 	position:absolute;
 	background-image:url(Images/third.png);
 	background-repeat:no-repeat;	
-	z-index:3;
+	z-index:4;
 	margin-top:147px;
 	margin-left:123px;
 	-moz-transition:all 1s ease-in;
@@ -148,16 +148,18 @@ div.content{
 	margin-top:-150px;	
 	margin-left:auto;
 	margin-right:auto;
-	box-shadow:5px 5px 13px #999;
-	-webkit-box-shadow:5px 5px 13px #999;
-	-moz-box-shadow:5px 5px 13px #999;
-	-o-box-shadow:5px 5px 13px #999;
-	-ms-box-shadow:5px 5px 13px #999;
+	box-shadow:3px 3px 7px #fff;
+	-webkit-box-shadow:3px 3px 7px #fff;
+	-moz-box-shadow:3px 3px 7px #fff;
+	-o-box-shadow:3px 3px 7px #fff;
+	-ms-box-shadow:3px 3px 7px #fff;
 	padding-top:1px;
 }
-div.content p.firstway{
-	font-family:'article';
+p.way1{
+	font-family:"farsi";
 	font-size:16px;
 	direction:rtl;
 	margin:15px 30px;
+	color:#003399;
+	font-weight:600;
 }
